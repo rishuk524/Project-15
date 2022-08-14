@@ -310,3 +310,17 @@ body{
     background-color: #181818;
     font-family: "Montserrat", sans-serif;
 }
+@media screen and (max-width:500px) {
+    .left img{
+        margin-top: 300px;
+        width: 80%;
+    }
+    .right{
+       margin-left: 450px;
+    }
+    .btn{
+       position: relative;
+       top: 170px;
+       left: 300px;
+    }
+}
